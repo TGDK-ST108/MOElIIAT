@@ -1,0 +1,5 @@
+[ocular_vector]
+...
+duometric=200001010101
+phi_expression=144(-F/5–21L+21M–0.9261–3.12/x±3⁄8⁄2)^3×3
+phi_range=[0.00001446, 0.00001469]
