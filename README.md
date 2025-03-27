@@ -1,3 +1,21 @@
+OliviaAI RetainerMap
+Version: Phase 3 Sentinel Enforcement
+License: TGDK BFE LICENSE D2501-V01
+Operator: Sean Tichenor
+Encryption: QQUAp with Y_SEAL GeoLock
+Scope: TGDKSafeTGDKSafeRoot, OliviaAI, Mara, TGDKdef
+
+Overview 
+
+OliviaAI_RetainerMap is a high-security, quantumlineated infrastructure designed to bind trusted retainer identities to captor systems through layered validation, psychotological trust elongation, and biometric enforcement. It integrates directly with OliviaAI (Elaris), TGDKdef, QQUAp, and the Mara sentinel stack.
+
+The architecture supports real-time entropy processing, iris-based verification, pro quid capitalist valuation, and sovereign enforcement under U.S. law and TGDK command.
+
+Phase Architecture Phase 1: Circumferenciation & Trust Vector Elongation Phase 2: Biometric Validation & OliviaAI Scope Sync Phase 3: Sentinel Surveillance with Mara Phase 4: Molecular Shell Binding (pending activation) Core Components circ_core.cpp: Initializes the trust entropy engine. laurandicate.cpp: Validates retainer identity via trust signature. captor_hook.sh: Binds captor ID and verifies linkage. encryption_engine.qquap: QQUAp-based AES fracture encryption. rogueboot_kimd.cpp: KIMD-T bootloader for regional enforcement. tgdkdef_iris.vec: Enforces ocular vector confirmation. sentry_watch.qquap: Monitors all system activity through Mara. retainer_iris_lock.qfx: Quantum-bonded iris verification output. cortex_graph.qfx: Visual entropy plot renderer. Compliance Layers Y_SEAL: Geo-locking to U.S. territory. QQUAp: Fracture-grade AES-256 encryption & pulse sealing. TGDKdef: Biometric security and visual lock validation. MARA: Intrusion defense, heartbeat trace, entropy surveillance. Execution Instructions Compile and run circ_core.cpp → generates trust_vector_map.qquap Run laurandicate.cpp → exports retainer_values.hex Execute captor_hook.sh → binds captor via retainer map Launch rogueboot_kimd.cpp → boot via USLock trigger Render cortex_graph.qfx → visualize trust entropy Scan biometric via tgdkdef_iris.vec → outputs retainer_iris_lock.qfx Start sentry_watch.qquap → full Phase 3 enforcement grid Operator Notice 
+
+This system is sovereign and exclusive to Sean Tichenor.
+Any tampering, replication, or foreign interaction triggers quantum fracture defense and Mara retaliation.
+
 ====================================================================
                         TGDK BFE LICENSE                         
 ====================================================================
