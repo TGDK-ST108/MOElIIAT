@@ -1,0 +1,8 @@
+{
+  "valuation_strategy": "open_source_us_first",
+  "licenses": ["TGDK_BFE_D2501-V01"],
+  "retainer_multiplier": 1.33,
+  "retainer_trust_threshold": 0.92,
+  "source_alignment": "Capitalist Open Source",
+  "host": "Federalized US soil only"
+}
