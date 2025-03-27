@@ -1,0 +1,46 @@
+# ====================================================================
+#                           TGDK BFE LICENSE                         
+# ====================================================================
+# LICENSE HOLDER:              |  Sean Tichenor                        
+# LICENSE CODE:                |  D2501-V01                            
+# DATE OF ISSUANCE:            |  March 27, 2025                       
+# LICENSE STATUS:              |  ACTIVE                                
+# ISSUING AUTHORITY:           |  TGDK Licensing Authority             
+# ====================================================================
+# DESCRIPTION:  
+# tgdkdef_iris.vec - Captures, analyzes, and validates iris scan 
+# for secure biometric trust binding. Required before retainer activation.
+// Executes under OliviaAI and TGDKdef coordination layers.
+// All logic is enforced by QQUAp and Y_SEAL geo-lock.
+// ====================================================================
+# UNAUTHORIZED USE, DISTRIBUTION, OR MODIFICATION IS STRICTLY PROHIBITED.
+# ====================================================================
+
+[iris_scan]
+initiated=TRUE
+camera_mode=infrared
+capture_window=720ms
+entropy_map=active
+scan_points=468
+retina_gate=enabled
+ocular_vector_signature=bound_to_SEAN_TICHENOR
+
+[verification]
+hash_mode=SHA-512-QQUAp
+linked_retainer=TGDK-CAP-01
+match_threshold=0.992
+biometric_seal=TRUE
+visual_auth_required=TRUE
+audio_auth_phrase="Invoke OliviaAI, Retain Trust"
+
+[restrictions]
+geo_lock=ENFORCED
+authorized_region=US
+seal=Y_SEAL_ACTIVE
+foreign_key_bypass=DENIED
+offline_use=DISALLOWED
+
+[logistics]
+output_vector=retainer_iris_lock.qfx
+match_result=APPEND
+license_enforced=D2501-V01
