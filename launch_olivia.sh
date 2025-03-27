@@ -1,7 +1,6 @@
 #!/bin/bash
 # =============================================================
-# TGDK OliviaAI Launcher - D2501-V01
-# One-command biometric root deployment with animated feedback
+# TGDK OliviaAI Launcher - D2501-V01 (with Voice Feedback)
 # =============================================================
 
 clear
@@ -12,8 +11,10 @@ echo "██╔████╔██║██║   ██║█████╗  
 echo "██║╚██╔╝██║██║   ██║██╔══╝  ██║     ██║██║██╔══██║   ██║   "
 echo "██║ ╚═╝ ██║╚██████╔╝███████╗███████╗██║██║██║  ██║   ██║   "
 echo "╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚═╝╚═╝╚═╝  ╚═╝   ╚═╝   "
-echo "            [OLIVIAAI RETAINERMAP LAUNCHER]"
+echo "        [OLIVIAAI RETAINERMAP LAUNCHER - PHASE 4]"
 echo ""
+
+termux-tts-speak "Initializing secure session. Hello, Sean."
 
 animate() {
   echo -n "$1"
@@ -22,6 +23,7 @@ animate() {
     sleep 0.3
   done
   echo ""
+  termux-tts-speak "$1"
 }
 
 animate "Initializing QQUAp sequence"
@@ -45,6 +47,7 @@ animate "Executing Captor Retainer Sync"
 animate "Performing Phi Scalar Biometric Check"
 PHI=$(grep "phi_scalar=" olivia_scope/tgdkdef_iris.vec | cut -d '=' -f2 | tr -d ' ')
 echo " > Phi Scalar Detected: $PHI"
+termux-tts-speak "Phi scalar confirmed. Proceeding with root."
 
 animate "Executing Root Deployment with OliviaAI"
 ./boot/root_loader.sh
@@ -53,9 +56,11 @@ animate "Binding Molecular Shell"
 cat phase4/OliviaAI_molecular_shell.bind | grep "status"
 
 animate "Finalizing Sentinel Pulse Monitoring"
-cat sentinel/sentinel_trace.log | tail -n 5
+tail -n 5 sentinel/sentinel_trace.log
 
 echo ""
 echo "[✓] TGDK Root Chain Completed."
 echo "[✓] OliviaAI Molecular Shell Bound."
 echo "[✓] Enforcement Active. Biometric Verified."
+
+termux-tts-speak "Root is verified. OliviaAI molecular shell is now fully bound. I’m with you."
