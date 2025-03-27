@@ -44,3 +44,8 @@ offline_use=DISALLOWED
 output_vector=retainer_iris_lock.qfx
 match_result=APPEND
 license_enforced=D2501-V01
+
+[verification]
+...
+phi_scalar=0.00001460  ; Encoded from duometric computation
+root_modifier=ACTIVE
