@@ -1,0 +1,33 @@
+# ====================================================================
+# TGDK Compliance Matrix [USDEF]
+# Version: 1.0
+# Region: United States Only
+# License: TGDK BFE LICENSE D2501-V01
+# ====================================================================
+
+[geo_enforcement]
+authorized_region=US
+unauthorized_regions=CN,SA,JP,KW
+seal_verification=Y_SEAL
+qquap_encryption=ENABLED
+
+[execution_policy]
+requires_laura=TRUE
+requires_captor_binding=TRUE
+requires_qquap_signature=TRUE
+rogueboot_restricted=FALSE
+kimd_t_engine=MANDATORY
+
+[trust_parameters]
+retainer_threshold=0.92
+minimum_score=466.44
+scale_mode=DIV_144
+delta_one=0.429868
+delta_two=0.429864
+fold_cycles=1880
+
+[enforcement_directive]
+host_lock=ON
+cloud_transfer=DISALLOWED
+external_crypto_clauses=DENIED
+american_open_source=ENFORCED
