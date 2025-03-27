@@ -23,5 +23,9 @@
     "tgdk_license": "D2501-V01",
     "scope_sync": "OliviaAI",
     "compliance": "TRUE"
+
+  "duometric": "200001010101",
+    "phi_scalar": 0.00001460,
+    "phi_verified": true,
   }
 }
