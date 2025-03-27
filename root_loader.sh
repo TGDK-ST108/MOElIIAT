@@ -7,5 +7,6 @@ if [[ "$(echo "$PHI < 0.00001446" | bc)" -eq 1 || "$(echo "$PHI > 0.00001469" | 
 fi
 echo "[ROOT] Phi biomatrix validated: $PHI"
 
+echo "[ROOT] Flashing Magisk-patched boot image..."
 fastboot flash boot "$BOOT_IMAGE"
-fastboot oem unlock
+fastboot reboot
