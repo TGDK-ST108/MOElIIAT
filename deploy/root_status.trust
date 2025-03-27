@@ -1,0 +1,2 @@
+MAGISK_STATUS=$(which magisk 2>/dev/null && echo "DETECTED" || echo "NOT INSTALLED")
+echo "MAGISK: $MAGISK_STATUS" >> deploy/root_status.trust
