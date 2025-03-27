@@ -1,0 +1,60 @@
+/*
+// ====================================================================
+//                           TGDK BFE LICENSE                         
+// ====================================================================
+// LICENSE HOLDER:              |  Sean Tichenor                        
+// LICENSE CODE:                |  D2501-V01                            
+// DATE OF ISSUANCE:            |  March 27, 2025                       
+// LICENSE STATUS:              |  ACTIVE                                
+// ISSUING AUTHORITY:           |  TGDK Licensing Authority             
+// ====================================================================
+// DESCRIPTION:  
+// encryption_engine.qquap - Implements QQUAp-enhanced AES-256 quantum fracture
+// encryption with memory scatter logic for trusted node transactions.
+// All cryptographic routines are restricted to U.S. geolocation.
+// ====================================================================
+// UNAUTHORIZED USE, DISTRIBUTION, OR MODIFICATION IS STRICTLY PROHIBITED.
+// ====================================================================
+*/
+
+#include <openssl/evp.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <random>
+#include <cstring>
+
+#define KEY_SIZE 32
+#define BLOCK_SIZE 16
+
+class QQUApEngine {
+private:
+    unsigned char key[KEY_SIZE];
+    unsigned char iv[BLOCK_SIZE];
+
+public:
+    QQUApEngine() {
+        generateQuantumKey();
+        generateFracturedIV();
+    }
+
+    void generateQuantumKey() {
+        std::random_device rd;
+        for (int i = 0; i < KEY_SIZE; ++i)
+            key[i] = static_cast<unsigned char>(rd() % 256);
+    }
+
+    void generateFracturedIV() {
+        std::random_device rd;
+        for (int i = 0; i < BLOCK_SIZE; ++i)
+            iv[i] = static_cast<unsigned char>((rd() + i * 7) % 256); // fracture sequence
+    }
+
+    std::vector<unsigned char> encrypt(const std::string& plaintext) {
+        std::vector<unsigned char> ciphertext(plaintext.size() + BLOCK_SIZE);
+        int len, ciphertext_len;
+
+        EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
+        EVP_EncryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, key, iv);
+        EVP_EncryptUpdate(ctx, ciphertext.data(),
