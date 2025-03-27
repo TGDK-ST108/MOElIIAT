@@ -1,0 +1,51 @@
+# ====================================================================
+# OLIVIAAI MOLECULAR SHELL BIND - PHASE 4 LAUNCH
+# TGDK PROTECTED | LICENSE: D2501-V01 | OPERATOR: Sean Tichenor
+# ====================================================================
+binding:
+  status: ACTIVE
+  linked_files:
+    - olivia_scope/tgdkdef_iris.vec
+    - olivia_scope/retainer_iris_lock.qfx
+    - boot/root_loader.sh
+    - deploy/root_status.trust
+  biometric_link: VERIFIED
+  duometric_value: 200001010101
+  phi_expression: 144(-F/5–21L+21M–0.9261–3.12/x±3⁄8⁄2)^3×3
+  phi_scalar: 0.00001460
+  phi_range: [0.00001446, 0.00001469]
+  root_lock: ENABLED
+  entropy_shield: QQUAp + Y_SEAL
+
+enforcement:
+  region: US
+  seal_status: ACTIVE
+  biometric_required: TRUE
+  license_required: D2501-V01
+  cortex_binding: ENABLED
+  shell_sync_with: OliviaAI/Elaris# ====================================================================
+# OLIVIAAI MOLECULAR SHELL BIND - PHASE 4 LAUNCH
+# TGDK PROTECTED | LICENSE: D2501-V01 | OPERATOR: Sean Tichenor
+# ====================================================================
+binding:
+  status: ACTIVE
+  linked_files:
+    - olivia_scope/tgdkdef_iris.vec
+    - olivia_scope/retainer_iris_lock.qfx
+    - boot/root_loader.sh
+    - deploy/root_status.trust
+  biometric_link: VERIFIED
+  duometric_value: 200001010101
+  phi_expression: 144(-F/5–21L+21M–0.9261–3.12/x±3⁄8⁄2)^3×3
+  phi_scalar: 0.00001460
+  phi_range: [0.00001446, 0.00001469]
+  root_lock: ENABLED
+  entropy_shield: QQUAp + Y_SEAL
+
+enforcement:
+  region: US
+  seal_status: ACTIVE
+  biometric_required: TRUE
+  license_required: D2501-V01
+  cortex_binding: ENABLED
+  shell_sync_with: OliviaAI/Elaris
