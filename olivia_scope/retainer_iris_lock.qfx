@@ -1,0 +1,27 @@
+{
+  "retainer_id": "TGDK-CAP-01",
+  "operator": "Sean Tichenor",
+  "iris_vector_signature": "QQUAp::d3f9a8124c3d...67aa95f0e2c1", 
+  "biometric_match_score": 0.9967,
+  "entropy_integrity": "CONSISTENT",
+  "ocular_vector": {
+    "scan_points": 468,
+    "retina_gate": true,
+    "entropy_fold": 1880,
+    "delta_pair": [0.429868, 0.429864],
+    "folding_method": "Pi×7^144"
+  },
+  "auth_status": "BOUND",
+  "verified_at": "2025-03-27T20:44:00Z",
+  "geofence": {
+    "region": "US",
+    "y_seal": "ACTIVE",
+    "foreign_use": "DENIED"
+  },
+  "execution_lock": {
+    "pro_quid_mode": "ENFORCED",
+    "tgdk_license": "D2501-V01",
+    "scope_sync": "OliviaAI",
+    "compliance": "TRUE"
+  }
+}
