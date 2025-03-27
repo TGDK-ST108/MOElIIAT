@@ -1,0 +1,8 @@
+{
+  "geo_block": ["CN", "SA", "JP", "KW"],
+  "execution_region": "US",
+  "crypto_ratio_clauses": "restricted",
+  "enforcement_protocol": "QQUAp",
+  "seal_status": "ACTIVE",
+  "validated_by": "TGDKsafeRoot_Laural"
+}
