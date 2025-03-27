@@ -1,0 +1,15 @@
+# ====================================================================
+# TGDK U.S. Lock Trigger Configuration
+# Enforced by Y_SEAL and QQUAp via TGDKSafeTGDKSafeRoot
+# ====================================================================
+
+REGION=US
+LOCK=TRUE
+QQUAP_REQUIRED=TRUE
+KIMD_ENGINE=ENABLED
+PROQUID_MODE=ACTIVATED
+ENCRYPTION_LAYER=QQUAp-AESQ
+SEAL_STATUS=Y_SEAL_ACTIVE
+LICENSE_REF=D2501-V01
+ALLOW_FOREIGN=FALSE
+AUTHORIZED_OPERATOR=SEAN_TICHENOR
