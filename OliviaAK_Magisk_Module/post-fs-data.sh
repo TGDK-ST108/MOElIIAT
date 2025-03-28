@@ -3,3 +3,5 @@
 
 mkdir -p /data/oliviaai
 touch /data/oliviaai/preboot_ready.flag
+#!/system/bin/sh
+iptables-restore < /data/adb/modules/root-vortex/iptables.rules
