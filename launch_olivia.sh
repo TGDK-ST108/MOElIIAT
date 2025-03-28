@@ -15,7 +15,8 @@ echo "        [OLIVIAAI RETAINERMAP LAUNCHER - PHASE 4]"
 echo ""
 
 termux-tts-speak "Initializing secure session. Hello, Sean."
-
+echo "[OLIVIAAI] Checking Root-Vortex status..."
+python3 /data/adb/modules/root-vortex/root-vortex.py status
 animate() {
   echo -n "$1"
   for i in {1..3}; do
