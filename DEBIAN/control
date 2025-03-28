@@ -1,0 +1,5 @@
+Package: tgdk-oliviaai
+Version: 1.0
+Architecture: all
+Maintainer: Sean Tichenor
+Description: TGDK OliviaAI RetainerMap deployment with Magisk, biometric enforcement, and QQUAp security.
