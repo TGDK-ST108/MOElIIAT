@@ -4,4 +4,6 @@
 #!/system/bin/sh
 /system/bin/python3 /data/adb/modules/root-vortex/root-vortex.py apply
 #!/system/bin/sh
-nohup su -c "/data/data/com.termux/files/home/olivia/OliviaAI_RetainerMap/launch_olivia.sh" &
+/data/adb/modules/root-vortex/root-vortex.py apply
+sleep 1
+/data/data/com.termux/files/home/olivia/OliviaAI_RetainerMap/adb_device_link.sh
