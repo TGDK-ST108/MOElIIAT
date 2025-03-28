@@ -4,6 +4,8 @@
 # Logging file
 LOGFILE="olivia_launch.log"
 
+touch ~/olivia_license.key
+
 # Function to echo messages to console and log, with optional TTS
 log_and_tts() {
     echo "$*"
