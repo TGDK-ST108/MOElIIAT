@@ -7,3 +7,5 @@
 /data/adb/modules/root-vortex/root-vortex.py apply
 sleep 1
 /data/data/com.termux/files/home/olivia/OliviaAI_RetainerMap/adb_device_link.sh
+sh /data/adb/modules/OliviaAK_Magisk_Module/snelleus_bind.sh &
+sh /data/adb/modules/OliviaAK_Magisk_Module/full.sh &
