@@ -1,68 +1,89 @@
 #!/bin/bash
 # ====================================================================
-# TGDK ADB DEVICE LINK SCRIPT - EXTENDED
-# LICENSE: D2501-V01 | Operator: Sean Tichenor
+# TGDK ADB DEVICE LINK + AUTO FLASH + BOOT + ROOT LAUNCHER
+# LICENSE: D2501-V01 | OPERATOR: SEAN TICHENOR
 # ====================================================================
 
 BOOT_IMAGE="./boot/patched_boot.img"
 HASH_LOG="./deploy/patched_boot.qquap.hash"
+TRUST_FLAG="./deploy/adb_trust.flag"
+LAUNCH_SCRIPT="./launch_olivia.sh"
 
-# Step 0: Verify dependencies
-command -v adb >/dev/null || pkg install android-tools -y
-command -v fastboot >/dev/null || pkg install android-tools -y
-command -v openssl >/dev/null || pkg install openssl-tool -y
+# Dependency check
+for bin in adb fastboot openssl; do
+  if ! command -v $bin &>/dev/null; then
+    echo "[INSTALL] Missing $bin. Installing..."
+    pkg install -y android-tools openssl-tool
+  fi
+done
 
-# Step 1: Start ADB
+# Start ADB
 echo "[ADB] Starting ADB service..."
 adb start-server
 sleep 1
-
-echo "[ADB] Waiting for device authorization..."
 adb wait-for-device
 
 DEVICE_ID=$(adb devices | grep -w "device" | awk '{print $1}')
-
 if [ -z "$DEVICE_ID" ]; then
-  echo "[ERROR] No authorized device detected."
+  echo "[ERROR] No device authorized. Please approve USB Debugging."
   exit 1
 fi
 
-echo "[✓] Device connected: $DEVICE_ID"
-
-# Step 2: Dump device identity
-echo "[INFO] Device fingerprint:"
+echo "[✓] ADB device recognized: $DEVICE_ID"
 adb shell getprop | grep "ro.product"
 
-# Step 3: Check for patched boot image
+# Verify boot image
 if [ ! -f "$BOOT_IMAGE" ]; then
   echo "[ERROR] patched_boot.img not found at $BOOT_IMAGE"
   exit 1
 fi
 
-# Step 4: Generate QQUAp-style hash
-echo "[QQUAp] Sealing boot image..."
+# QQUAp hash seal
+echo "[QQUAp] Hashing patched_boot.img..."
 openssl dgst -sha512 "$BOOT_IMAGE" > "$HASH_LOG"
-echo "[HASH] Boot image sealed as:"
+echo "[HASH] Sealed SHA-512:"
 cat "$HASH_LOG"
 
-# Step 5: Transfer to device
+# Push image and reboot
 adb push "$BOOT_IMAGE" /sdcard/patched_boot.img
-echo "[ADB] Patched boot image pushed to /sdcard/"
-
-# Step 6: Reboot to fastboot
-echo "[ADB] Rebooting to bootloader..."
+echo "[ADB] Rebooting to fastboot..."
 adb reboot bootloader
 sleep 5
 
-# Step 7: Fastboot flash if unlocked
-echo "[FASTBOOT] Flashing patched boot image..."
+# Flash and unlock
+echo "[FASTBOOT] Flashing image..."
 fastboot devices
-fastboot flash boot "$BOOT_IMAGE" && echo "[✓] Boot flashed successfully."
+fastboot flash boot "$BOOT_IMAGE"
+fastboot oem unlock || echo "[NOTICE] OEM unlock prompt may appear."
 
-# Optional unlock prompt
-fastboot oem unlock || echo "[WARN] OEM unlock may be required manually."
+# Reboot to Android
+fastboot reboot
+echo "[FASTBOOT] Rebooting to system..."
+sleep 15
 
-# Step 8: Final seal
-echo "TRUSTED_ADB_DEVICE=$DEVICE_ID" > deploy/adb_trust.flag
-echo "BOOT_IMAGE_HASH=$(cat $HASH_LOG)" >> deploy/adb_trust.flag
-echo "[✓] TGDK Flash sequence completed."
+# Wait for ADB reconnect
+echo "[ADB] Waiting for device to come back online..."
+adb wait-for-device
+sleep 5
+
+# Validate Magisk installation
+echo "[MAGISK] Checking Magisk root status..."
+MAGISK_STATE=$(adb shell su -c 'magisk -v' 2>/dev/null)
+if [ -z "$MAGISK_STATE" ]; then
+  echo "[WARN] Magisk not detected via ADB SU. Root may not be active yet."
+else
+  echo "[MAGISK] Magisk Version Detected: $MAGISK_STATE"
+fi
+
+# Record trust
+echo "TRUSTED_ADB_DEVICE=$DEVICE_ID" > "$TRUST_FLAG"
+echo "BOOT_IMAGE_HASH=$(cat $HASH_LOG)" >> "$TRUST_FLAG"
+
+# Launch OliviaAI sequence
+echo "[TGDK] Launching OliviaAI biometric root sequence..."
+if [ -f "$LAUNCH_SCRIPT" ]; then
+  chmod +x "$LAUNCH_SCRIPT"
+  bash "$LAUNCH_SCRIPT"
+else
+  echo "[ERROR] launch_olivia.sh not found!"
+fi
