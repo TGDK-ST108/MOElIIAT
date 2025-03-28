@@ -1,0 +1,387 @@
+2025-03-28 00:24:59 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 00:24:59 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 00:24:59 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 00:24:59 [TGDK] Phase 1: License Validation
+2025-03-28 00:24:59 [TGDK] License found
+2025-03-28 00:24:59 [TGDK] Phase 2: ADB Binding
+2025-03-28 00:24:59 [TGDK] ADB connected to localhost:5555
+2025-03-28 00:24:59 [TGDK] Phase 3: USB echo check
+2025-03-28 00:24:59 [TGDK] USB access unavailable
+2025-03-28 00:24:59 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 00:24:59 [TGDK] Running as normal user
+2025-03-28 00:24:59 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 00:24:59 [TGDK] Captor verified
+2025-03-28 00:24:59 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 00:24:59 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 00:24:59 [TGDK] Phase 7: OEM Unlock
+2025-03-28 00:26:30 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 00:26:30 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 00:26:30 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 00:26:30 [TGDK] Phase 1: License Validation
+2025-03-28 00:26:30 [TGDK] License found
+2025-03-28 00:26:30 [TGDK] Phase 2: ADB Binding
+2025-03-28 00:26:31 [TGDK] ADB connected to localhost:5555
+2025-03-28 00:26:31 [TGDK] Phase 3: USB echo check
+2025-03-28 00:26:31 [TGDK] USB access unavailable
+2025-03-28 00:26:31 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 00:26:31 [TGDK] Running as normal user
+2025-03-28 00:26:31 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 00:26:31 [TGDK] Captor verified
+2025-03-28 00:26:31 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 00:26:31 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 00:26:31 [TGDK] Phase 7: OEM Unlock
+2025-03-28 00:27:03 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 00:27:03 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 00:27:03 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 00:27:03 [TGDK] Phase 1: License Validation
+2025-03-28 00:27:03 [TGDK] License found
+2025-03-28 00:27:03 [TGDK] Phase 2: ADB Binding
+2025-03-28 00:27:03 [TGDK] ADB connected to localhost:5555
+2025-03-28 00:27:03 [TGDK] Phase 3: USB echo check
+2025-03-28 00:27:03 [TGDK] USB access unavailable
+2025-03-28 00:27:03 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 00:27:03 [TGDK] Running as normal user
+2025-03-28 00:27:03 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 00:27:03 [TGDK] Captor verified
+2025-03-28 00:27:03 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 00:27:03 [TGDK] Running: fastboot oem unlock
+2025-03-28 00:27:03 [TGDK] Running: python3 retainer_engjne.py
+2025-03-28 00:27:03 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 00:27:03 [TGDK] Phase 7: OEM Unlock
+2025-03-28 00:29:42 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 00:29:42 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 00:29:42 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 00:29:42 [TGDK] Phase 1: License Validation
+2025-03-28 00:29:43 [TGDK] License found
+2025-03-28 00:29:43 [TGDK] Phase 2: ADB Binding
+2025-03-28 00:29:43 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 00:29:43 [TGDK] Phase 3: USB echo check
+2025-03-28 00:29:43 [TGDK] USB access unavailable
+2025-03-28 00:29:43 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 00:29:43 [TGDK] Running as normal user
+2025-03-28 00:29:43 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 00:29:43 [TGDK] Captor verified
+2025-03-28 00:29:43 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 00:29:43 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 00:29:43 [TGDK] Phase 7: OEM Unlock
+2025-03-28 00:29:43 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 00:29:43 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 00:29:43 [TGDK] Launching retainer_engjne.py
+2025-03-28 00:29:43 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:14:33 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:14:33 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:14:33 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:14:33 [TGDK] Phase 1: License Validation
+2025-03-28 01:14:33 [TGDK] License found
+2025-03-28 01:14:33 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:14:33 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:14:33 [TGDK] Phase 3: USB echo check
+2025-03-28 01:14:33 [TGDK] USB access unavailable
+2025-03-28 01:14:33 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:14:33 [TGDK] Running as normal user
+2025-03-28 01:14:33 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:14:33 [TGDK] Captor verified
+2025-03-28 01:14:33 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:14:33 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:14:33 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:14:33 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:14:33 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:14:33 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:14:33 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:21:41 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:21:41 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:21:41 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:21:41 [TGDK] Phase 1: License Validation
+2025-03-28 01:21:41 [TGDK] License found
+2025-03-28 01:21:41 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:21:41 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:21:41 [TGDK] Phase 3: USB echo check
+2025-03-28 01:21:41 [TGDK] USB access unavailable
+2025-03-28 01:21:41 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:21:41 [TGDK] Running as normal user
+2025-03-28 01:21:41 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:21:41 [TGDK] Captor verified
+2025-03-28 01:21:41 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:21:41 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:21:41 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:21:41 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:21:41 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:21:41 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:21:41 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:27:12 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:27:12 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:27:12 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:27:12 [TGDK] Phase 1: License Validation
+2025-03-28 01:27:12 [TGDK] License found
+2025-03-28 01:27:12 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:27:12 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:27:12 [TGDK] Phase 3: USB echo check
+2025-03-28 01:27:12 [TGDK] USB access unavailable
+2025-03-28 01:27:12 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:27:12 [TGDK] Running as normal user
+2025-03-28 01:27:12 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:27:12 [TGDK] Captor verified
+2025-03-28 01:27:12 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:27:12 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:27:12 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:27:12 [TGDK] Phase 2: Connecting to Wireless ADB @ 10.252.5.102:5555
+2025-03-28 01:27:12 [TGDK] Connected to ADB @ 10.252.5.102:5555
+2025-03-28 01:27:12 [TGDK] ADB Connected Devices: 
+2025-03-28 01:27:12 [TGDK] ADB TCP Port: 
+2025-03-28 01:27:12 [TGDK] USB Config: 
+2025-03-28 01:27:12 [TGDK] USB State: 
+2025-03-28 01:27:12 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:27:12 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:27:12 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:27:12 [TGDK] No ADB devices found
+2025-03-28 01:27:12 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:27:12 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:27:12 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:27:12 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:27:12 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:30:19 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:30:19 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:30:19 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:30:19 [TGDK] Phase 1: License Validation
+2025-03-28 01:30:19 [TGDK] License found
+2025-03-28 01:30:19 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:30:19 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:30:19 [TGDK] Phase 3: USB echo check
+2025-03-28 01:30:19 [TGDK] USB access unavailable
+2025-03-28 01:30:19 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:30:19 [TGDK] Running as normal user
+2025-03-28 01:30:19 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:30:19 [TGDK] Captor verified
+2025-03-28 01:30:19 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:30:19 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:30:19 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:30:19 [TGDK] ADB device recognized: List
+2025-03-28 01:30:19 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:30:19 [TGDK] ADB TCP Port: 
+2025-03-28 01:30:19 [TGDK] USB Config: 
+2025-03-28 01:30:19 [TGDK] USB State: 
+2025-03-28 01:30:19 [TGDK] ADB Connected Devices: 
+2025-03-28 01:30:19 [TGDK] ADB TCP Port: 
+2025-03-28 01:30:19 [TGDK] USB Config: 
+2025-03-28 01:30:19 [TGDK] USB State: 
+2025-03-28 01:30:19 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:30:19 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:30:19 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:30:19 [TGDK] No ADB devices found
+2025-03-28 01:30:19 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:30:19 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:30:19 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:30:19 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:30:19 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:31:59 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:31:59 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:31:59 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:31:59 [TGDK] Phase 1: License Validation
+2025-03-28 01:31:59 [TGDK] License found
+2025-03-28 01:31:59 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:31:59 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:31:59 [TGDK] Phase 3: USB echo check
+2025-03-28 01:31:59 [TGDK] USB access unavailable
+2025-03-28 01:31:59 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:31:59 [TGDK] Running as normal user
+2025-03-28 01:31:59 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:31:59 [TGDK] Captor verified
+2025-03-28 01:31:59 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:31:59 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:31:59 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:31:59 [TGDK] ADB device recognized: List
+2025-03-28 01:31:59 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:31:59 [TGDK] ADB TCP Port: 
+2025-03-28 01:31:59 [TGDK] USB Config: 
+2025-03-28 01:31:59 [TGDK] USB State: 
+2025-03-28 01:31:59 [TGDK] ADB Connected Devices: 
+2025-03-28 01:31:59 [TGDK] ADB TCP Port: 
+2025-03-28 01:31:59 [TGDK] USB Config: 
+2025-03-28 01:31:59 [TGDK] USB State: 
+2025-03-28 01:31:59 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:31:59 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:31:59 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:31:59 [TGDK] No ADB devices found
+2025-03-28 01:31:59 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:31:59 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:31:59 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:31:59 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:31:59 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:32:33 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:32:33 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:32:33 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:32:33 [TGDK] Phase 1: License Validation
+2025-03-28 01:32:33 [TGDK] License found
+2025-03-28 01:32:33 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:32:33 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:32:33 [TGDK] Phase 3: USB echo check
+2025-03-28 01:32:33 [TGDK] USB access unavailable
+2025-03-28 01:32:33 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:32:33 [TGDK] Running as normal user
+2025-03-28 01:32:33 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:32:33 [TGDK] Captor verified
+2025-03-28 01:32:34 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:32:34 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:32:34 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:32:34 [TGDK] ADB device recognized: List
+2025-03-28 01:32:34 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:32:34 [TGDK] ADB TCP Port: 
+2025-03-28 01:32:34 [TGDK] USB Config: 
+2025-03-28 01:32:34 [TGDK] USB State: 
+2025-03-28 01:32:34 [TGDK] ADB Connected Devices: 
+2025-03-28 01:32:34 [TGDK] ADB TCP Port: 
+2025-03-28 01:32:34 [TGDK] USB Config: 
+2025-03-28 01:32:34 [TGDK] USB State: 
+2025-03-28 01:32:34 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:32:34 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:32:34 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:32:34 [TGDK] No ADB devices found
+2025-03-28 01:32:34 [TGDK] Phase 7: OEM Unlock
+2025-03-28 01:32:34 [TGDK] OEM unlock skipped (no root or fastboot unavailable)
+2025-03-28 01:32:34 [TGDK] Phase 8: Launching OliviaAI RetainerMap Core...
+2025-03-28 01:32:34 [TGDK] Launching retainer_engjne.py
+2025-03-28 01:32:34 [TGDK] ===== TGDK Launch Complete =====
+[RET_ENGINE] OliviaAI RetainerMap engine booting...
+[RET_ENGINE] Trust scalar confirmed. Captor engaged.
+[RET_ENGINE] Memory initialized. OliviaAI core is ready.
+2025-03-28 01:33:49 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:33:49 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:33:49 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:33:49 [TGDK] Phase 1: License Validation
+2025-03-28 01:33:49 [TGDK] License found
+2025-03-28 01:33:49 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:33:49 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:33:49 [TGDK] Phase 3: USB echo check
+2025-03-28 01:33:49 [TGDK] USB access unavailable
+2025-03-28 01:33:49 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:33:49 [TGDK] Running as normal user
+2025-03-28 01:33:49 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:33:49 [TGDK] Captor verified
+2025-03-28 01:33:49 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:33:49 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:33:49 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:33:49 [TGDK] ADB device recognized: List
+2025-03-28 01:33:49 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:33:49 [TGDK] ADB TCP Port: 
+2025-03-28 01:33:49 [TGDK] USB Config: 
+2025-03-28 01:33:49 [TGDK] USB State: 
+2025-03-28 01:33:49 [TGDK] ADB Connected Devices: 
+2025-03-28 01:33:49 [TGDK] ADB TCP Port: 
+2025-03-28 01:33:49 [TGDK] USB Config: 
+2025-03-28 01:33:49 [TGDK] USB State: 
+2025-03-28 01:33:49 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:33:49 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:33:49 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:34:12 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:34:12 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:34:12 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+2025-03-28 01:34:12 [TGDK] Phase 1: License Validation
+2025-03-28 01:34:12 [TGDK] License found
+2025-03-28 01:34:12 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:34:13 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:34:13 [TGDK] Phase 3: USB echo check
+2025-03-28 01:34:13 [TGDK] USB access unavailable
+2025-03-28 01:34:13 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:34:13 [TGDK] Running as normal user
+2025-03-28 01:34:13 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:34:13 [TGDK] Captor verified
+2025-03-28 01:34:13 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:34:13 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:34:13 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:34:13 [TGDK] ADB device recognized: List
+2025-03-28 01:34:13 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:34:13 [TGDK] ADB TCP Port: 
+2025-03-28 01:34:13 [TGDK] USB Config: 
+2025-03-28 01:34:13 [TGDK] USB State: 
+2025-03-28 01:34:13 [TGDK] ADB Connected Devices: 
+2025-03-28 01:34:13 [TGDK] ADB TCP Port: 
+2025-03-28 01:34:13 [TGDK] USB Config: 
+2025-03-28 01:34:13 [TGDK] USB State: 
+2025-03-28 01:34:13 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:34:13 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:34:13 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:37:33 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:37:33 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:37:33 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+failed to connect to '127.0.0.1:5555': Connection refused
+2025-03-28 01:37:33 [TGDK] ADB connect failed or no device found
+2025-03-28 01:37:33 [TGDK] Phase 1: License Validation
+2025-03-28 01:37:33 [TGDK] License found
+2025-03-28 01:37:33 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:37:33 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:37:33 [TGDK] Phase 3: USB echo check
+2025-03-28 01:37:33 [TGDK] USB access unavailable
+2025-03-28 01:37:33 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:37:33 [TGDK] Running as normal user
+2025-03-28 01:37:33 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:37:33 [TGDK] Captor verified
+2025-03-28 01:37:33 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:37:33 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:37:33 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:37:33 [TGDK] ADB device not detected after connect
+2025-03-28 01:37:33 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:37:33 [TGDK] ADB TCP Port: 
+2025-03-28 01:37:33 [TGDK] USB Config: 
+2025-03-28 01:37:33 [TGDK] USB State: 
+2025-03-28 01:37:33 [TGDK] ADB Connected Devices: 
+2025-03-28 01:37:33 [TGDK] ADB TCP Port: 
+2025-03-28 01:37:33 [TGDK] USB Config: 
+2025-03-28 01:37:33 [TGDK] USB State: 
+2025-03-28 01:37:33 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:37:33 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:37:33 [TGDK] Phase 2.2: Connected ADB Device
+2025-03-28 01:40:13 [TGDK] ===== OliviaAI RetainerMap Chain Initiated =====
+2025-03-28 01:40:13 [TGDK] Phase 0: Snelleus Self-Recognition
+2025-03-28 01:40:13 [TGDK] Snelleus self-bind skipped (not root or setprop unavailable)
+failed to connect to '127.0.0.1:5555': Connection refused
+2025-03-28 01:40:13 [TGDK] ADB connect failed or no device found
+2025-03-28 01:40:13 [TGDK] Phase 1: License Validation
+2025-03-28 01:40:13 [TGDK] License found
+2025-03-28 01:40:13 [TGDK] Phase 2: ADB Binding
+2025-03-28 01:40:13 [TGDK] ADB connect attempt to localhost:5555
+2025-03-28 01:40:13 [TGDK] Phase 3: USB echo check
+2025-03-28 01:40:13 [TGDK] USB access unavailable
+2025-03-28 01:40:13 [TGDK] Phase 4: Root Vortex Phase
+2025-03-28 01:40:13 [TGDK] Running as normal user
+2025-03-28 01:40:13 [TGDK] Phase 5: Captor Hook Engaged
+2025-03-28 01:40:13 [TGDK] Captor verified
+2025-03-28 01:40:13 [TGDK] Phase 6: Phi Scalar Verification
+2025-03-28 01:40:13 [TGDK] Phi biomatrix validated: 0.00001460
+2025-03-28 01:40:13 [TGDK] Phase 2: Connecting to Wireless ADB @ localhost:5555
+Connection refused
+2025-03-28 01:40:13 [TGDK] ADB device not detected after connect
+2025-03-28 01:40:13 [TGDK] Phase 2.1: ADB Wireless Debug State
+2025-03-28 01:40:13 [TGDK] ADB TCP Port: 
+2025-03-28 01:40:13 [TGDK] USB Config: 
+2025-03-28 01:40:13 [TGDK] USB State: 
+2025-03-28 01:40:13 [TGDK] ADB Connected Devices: 
+2025-03-28 01:40:13 [TGDK] ADB TCP Port: 
+2025-03-28 01:40:13 [TGDK] USB Config: 
+2025-03-28 01:40:13 [TGDK] USB State: 
+2025-03-28 01:40:13 [TGDK] Phase 7.1: Fastboot Detection
+2025-03-28 01:40:13 [TGDK] Fastboot binary found, but no device attached
+2025-03-28 01:40:13 [TGDK] Phase 2.2: Connected ADB Device
