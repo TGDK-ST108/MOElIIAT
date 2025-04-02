@@ -1,9 +1,6 @@
 #!/bin/bash
-# ====================================================================
-# TGDK OEM Unlock Vortex
-# License: D2501-V01 | Operator: Sean Tichenor
-# Rebinds USB, forces device detection, and triggers OEM unlock
-# ====================================================================
+# TGDK OEM UNLOCK VORTEX
+# Author: Sean Tichenor | Includes vortex pulse & USB rebinding
 
 set -e
 LOG="deploy/oem_unlock_vortex.log"
@@ -16,64 +13,53 @@ log() {
 
 log "Initializing OEM Unlock Vortex..."
 
-# Step 1: Kill and restart ADB
-adb kill-server
-sleep 1
-adb start-server
+# Restart ADB server
+adb kill-server && sleep 1 && adb start-server
 log "ADB server restarted."
 
-# Step 2: Snelled USB entropy ping (Vortex pulse)
-log "Pulsing USB snelled entropy recognition..."
+# Snelled entropy pulse (USB handshake simulation)
 for i in {1..5}; do
-    echo -n "QQUAp-PING-$RANDOM$RANDOM " >> /dev/null
+    echo -n "QQUAp-PULSE-$RANDOM$RANDOM " >> /dev/null
     sleep 0.4
 done
 
-# Step 3: Wait loop for ADB device
-log "Waiting for device to respond over USB..."
+# Wait for device
+log "Waiting for USB handshake..."
 for i in {1..10}; do
     DEVICE=$(adb devices | grep -w "device" | awk '{print $1}')
-    if [ ! -z "$DEVICE" ]; then
-        log "Device recognized: $DEVICE"
-        break
-    fi
-    echo "[WAIT] No response yet ($i)..."
+    [[ ! -z "$DEVICE" ]] && break
+    echo "[WAIT] Ping $i/10..."
     sleep 1
 done
 
-if [ -z "$DEVICE" ]; then
-    log "ERROR: No ADB device detected after snelled pulse."
+if [[ -z "$DEVICE" ]]; then
+    log "No ADB device detected after vortex pulse."
     exit 144
 fi
 
-# Step 4: Reboot into bootloader
-log "Rebooting to bootloader..."
+log "Device detected: $DEVICE"
+
+# Reboot to bootloader
 adb reboot bootloader
 sleep 5
 
-# Step 5: Reconfirm in fastboot
-log "Checking fastboot devices..."
+# Confirm fastboot
 FASTBOOT_DEVICE=$(fastboot devices | awk '{print $1}')
-if [ -z "$FASTBOOT_DEVICE" ]; then
-    log "ERROR: Device not seen in fastboot. Check USB and try again."
-    exit 1
+if [[ -z "$FASTBOOT_DEVICE" ]]; then
+    log "Fastboot not detected. Samsung may require Odin."
+    exit 5
 fi
-log "Fastboot device confirmed: $FASTBOOT_DEVICE"
+log "Fastboot device: $FASTBOOT_DEVICE"
 
-# Step 6: OEM Unlock
-log "Issuing fastboot oem unlock..."
+# OEM Unlock
+log "Sending OEM unlock..."
 fastboot oem unlock || {
-    log "ERROR: OEM unlock failed. Bootloader may be protected."
-    exit 1
+    log "Unlock failed or not supported."
+    exit 6
 }
 
-# Optional: Reboot
-read -p "[OEM-VORTEX] Reboot to system now? (y/n): " choice
-if [[ "$choice" == "y" ]]; then
-    fastboot reboot
-    log "Device rebooted."
-else
-    log "Device remains in bootloader."
-fi
+# Optional reboot
+read -p "[OEM-VORTEX] Reboot to system? (y/n): " choice
+[[ "$choice" == "y" ]] && fastboot reboot
 
-log "OEM Unlock Vortex completed."
+log "OEM Unlock Vortex complete."
