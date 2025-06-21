@@ -8,12 +8,29 @@
 echo "[ROOT_VORTEX] Initializing sacrificial wake pulse..."
 sleep 0.4
 
+device_model=$(adb shell getprop ro.product.model)
+echo "[INFO] Detected device: $device_model"
+
+logfile="/tmp/root_vortex_log_$(date +%s).log"
+echo "[LOG] Session start: $(date)" >> $logfile
+
 # Step 1: Simulate entropy emission
 echo "[ENTROPY] Emitting QQUAp-coded entropy for ADB bait..."
 for i in {1..4}; do
   echo "QQUAp-SEED-${RANDOM}${RANDOM}" >> /dev/null
   sleep 0.25
 done
+
+echo "[QQUAp] Emitting encoded sigil..."
+for i in {1..4}; do
+  echo -n "SIGIL-$(openssl rand -hex 4)" | sha256sum >> /dev/null
+  sleep 0.25
+done
+
+usb_path=$(find /sys/bus/usb/devices/ -name "authorized" | head -n1)
+echo 0 > "$usb_path"
+sleep 1
+echo 1 > "$usb_path"
 
 # Step 2: Trigger ADB probing
 echo "[ADB] Pinging ADB device state..."
